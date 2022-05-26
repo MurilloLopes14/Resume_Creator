@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 30px;
+  border-bottom: 3px solid black;
+  background: #c0bbbb;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin: 10px 0 10px 30px;
+}
+
+nav {
+  margin: 0 20% 0 0;
+}
+
+nav a {
+  padding: 0 20px;
+  font-weight: 700;
+  font-size: 1.8em;
+  text-decoration: none;
+  color: #0a4e86;
+  transition: 0.5s;
+}
+
+nav a:hover {
+  color: antiquewhite;
+}

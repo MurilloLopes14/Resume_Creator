@@ -1,0 +1,137 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 50vh;
+  margin-bottom: 200px;
+}
+
+.container h1 {
+  color: aliceblue;
+  font-size: 3em;
+  letter-spacing: 1px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.container h2 {
+  color: aliceblue;
+  font-size: 2.5em;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px 2px aliceblue, inset 0 0 10px 2px aliceblue,
+    inset 0 0 10px 2px aliceblue;
+  width: 35%;
+}
+
+label {
+  font-size: 1.5em;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin: 10px;
+  text-transform: uppercase;
+  color: aliceblue;
+}
+
+.container .name_age {
+  display: flex;
+  flex-direction: row;
+}
+
+.container .name_age .name {
+  outline: none;
+  padding: 5px 5px 5px 10px;
+  font-size: 1.4em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  border: none;
+  width: 50%;
+}
+
+.container .name_age .age {
+  outline: none;
+  padding: 5px;
+  font-size: 1.4em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  border: none;
+  width: 10%;
+}
+
+textarea {
+  outline: none;
+  border: none;
+  padding: 5px;
+  font-size: 1.1em;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.container .phone_mail {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .phone_mail .mail {
+  outline: none;
+  padding: 5px 5px 5px 10px;
+  font-size: 1.4em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  border: none;
+  width: 80%;
+}
+
+.container .phone_mail .phone {
+  outline: none;
+  padding: 5px 5px 5px 10px;
+  font-size: 1.4em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  border: none;
+  width: 60%;
+}
+
+.submit {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.submit .button {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  width: 20%;
+  font-size: 1.2em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  background: aliceblue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.submit .button:hover {
+  transform: scale(1.1);
+  filter: brightness(1.1);
+  background: grey;
+}
