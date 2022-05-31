@@ -1,6 +1,7 @@
 .container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   padding-bottom: 30px;
@@ -19,6 +20,7 @@ nav {
 }
 
 nav a {
+  width: 30%;
   padding: 0 20px;
   font-weight: 700;
   font-size: 1.8em;
@@ -29,4 +31,15 @@ nav a {
 
 nav a:hover {
   color: antiquewhite;
+}
+
+@media screen and (max-width: 900px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  nav a {
+    padding: 20px 0;
+    width: 50%;
+  }
 }

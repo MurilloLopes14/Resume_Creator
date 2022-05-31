@@ -7,17 +7,15 @@ export const Home = () => {
         <div className="description">
           <h1 className={styles.title}>Seja bem-vindo!</h1>
           <h4>
-            Olá, querido usuário, seja bem-vindo ao software de criação de
-            currículos feito por nós da eletiva de Tecnologia e inovação, aqui
-            você poderá entender melhor o que é um software e como criar o seu
-            currículo para uso nas futuras ações para o mercado de trabalho!
+            Olá, esta é uma aplicação feita com React.js e JSON server, com o
+            objetivo de realizar a criação de e armazenamento de um currículo
+            para fins de experiência. Feito por Murillo de Oliveira Lopes.
           </h4>
           <h2>Sobre a proposta:</h2>
           <h4>
-            Nesta aplicação, procuraremos mostrar ao usuário a maneira correta
-            de se escrever um currículo profissional, onde o mesmo terá uma
-            breve noção de como criar seu documento de uso pessoal para o
-            mercado de trabalho.
+            Nesta apliação você entenderá como seria a criação de um currículo a
+            base de um pequeno software de criação de documentos. (OBS: Não se
+            esqueca de ativar o json server para que a aplicação funcione).
           </h4>
         </div>
         <h1 className={styles.title}>

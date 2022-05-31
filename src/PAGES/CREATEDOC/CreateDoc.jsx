@@ -51,7 +51,7 @@ export const CreateDoc = () => {
             <input
               className={styles.name}
               type="text"
-              placeholder="Escreva seu nome"
+              placeholder="Nome"
               required
               value={name}
               onChange={(e) => setName(e.target.value)}
@@ -60,6 +60,7 @@ export const CreateDoc = () => {
             <input
               className={styles.age}
               type="number"
+              placeholder="Idade"
               required
               value={age}
               onChange={(e) => setAge(e.target.value)}
